@@ -1,0 +1,83 @@
+body {
+  font-family: "Raleway", serif;
+  color: #1D1E2C;
+  font-size: 14pt;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Playfair";
+  color: #1D1E2C;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 5px 50px;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-family: "Playfair";
+  color: #1D1E2C;
+  font-size: 16pt;
+  font-weight: normal;
+  padding: 5px 30px;
+}
+
+p {
+  font-family: "Raleway";
+  color: #1D1E2C;
+  font-size: 13pt;
+  font-weight: normal;
+  padding: 5px 50px;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+.column {
+  background-color: #CCBCBC;
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  height: 800px;
+}
+
+.column a {
+  color: #1D1E2C;
+}
+
+.column a:visited {
+  color: #1D1E2C;
+}
+
+.content {
+  position: absolute;
+  display: inline-block;
+  width: 60%;
+  height: 800px;
+  padding: 10px 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FF784F;
+  display: inline-block;
+
+}  
+  
+a:hover {
+  color: #868784;
+}
+
+a:visited {
+  color: #FF784F;
+}
