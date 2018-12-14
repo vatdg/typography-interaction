@@ -1,83 +1,52 @@
 body {
-  font-family: "Raleway", serif;
-  color: #1D1E2C;
+  font-family: "Playfair", serif;
   font-size: 14pt;
-  letter-spacing: 0.05em;
+  letter-spacing: 1px;
   margin: 0 auto;
   padding: 0;
+  line-height: 32px;
   overflow: hidden;
-}
-
-h1 {
-  font-family: "Playfair";
-  color: #1D1E2C;
-  font-size: 24pt;
-  font-weight: bold;
-  padding: 5px 50px;
-  letter-spacing: 0.1em;
-}
-
-h2 {
-  font-family: "Playfair";
-  color: #1D1E2C;
-  font-size: 16pt;
-  font-weight: normal;
-  padding: 5px 30px;
-}
-
-p {
-  font-family: "Raleway";
-  color: #1D1E2C;
-  font-size: 13pt;
-  font-weight: normal;
-  padding: 5px 50px;
-  letter-spacing: 0.05em;
-  line-height: 1.6em;
 }
 
 ul {
   list-style-type: none;
 }
 
-li {
-  padding: 10px;
-}
-
-.column {
-  background-color: #CCBCBC;
-  position: relative;
-  display: inline-block;
-  width: 40%;
-  height: 800px;
-}
-
-.column a {
-  color: #1D1E2C;
-}
-
-.column a:visited {
-  color: #1D1E2C;
-}
-
-.content {
-  position: absolute;
-  display: inline-block;
-  width: 60%;
-  height: 800px;
-  padding: 10px 20px;
-}
-
 a:link {
   text-decoration: none;
-  color: #FF784F;
-  display: inline-block;
-
+  color: #565254;
 }  
   
 a:hover {
-  color: #868784;
+  color: #FF6F59;
 }
 
-a:visited {
-  color: #FF784F;
+.left {
+  display: inline-block;
+  position: relative;
+  background-color: #CCBCBC;
+  text-align: right;
+  width: 50%;
+  height: 800px;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+}
+
+#name {
+  padding: 100px 50px;
+  color: #fff;
+}
+
+#projects {
+  text-align: left;
+  padding: 200px 20px;
+  color: #565254;
+}
+
+#victoria {
+  letter-spacing: 6px;
 }
